@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './App.css';
-import { Box, Container, Slide, CssBaseline, Typography, Grid } from '@mui/material';
+import { Box, Container, CssBaseline, Typography, Grid } from '@mui/material';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./Components/Navbar/Navbar";
 import Titulo from "./Components/Titulo/Titulo";
@@ -27,8 +27,10 @@ function App() {
         <section className='section-clientes'>
           <Box>
             <Titulo>Clientes</Titulo>
-            <Grid container spacing={{ xs: 2, md: 8 }} columns={{ xs: 12, sm: 6, md: 10 }}>
-              <Grid item xs={12} md={7} sm={5}>
+            <Grid container columns={{ sm: 6, md: 10 }} direction="row"
+              justifyContent="space-between"
+              alignItems="center">
+              <Grid className="items">
                 <img className='logo' src={LogoOlist} alt="logo Olist" />
                 <img className='logo' src={LogoBuser} alt="logo Buser" />
                 <img className='logo' src={LogoDengo} alt="logo Dengo" />
