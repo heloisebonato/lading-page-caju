@@ -1,0 +1,17 @@
+.section-banner .carousel-control-next .carousel-control-next-icon {
+  background-image: url("../../assets/images/seta-direita.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.section-banner .carousel-control-prev .carousel-control-prev-icon {
+  background-image: url("../../assets/images/seta-esquerda.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.section-banner .carousel-indicators {
+  background-color: #E80638;
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=Banner.css.map */
